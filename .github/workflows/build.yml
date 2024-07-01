@@ -9,7 +9,7 @@ env:
 jobs:
   build-backend:
     runs-on: ubuntu-latest
-    name: Build admin
+    name: Build admin_old
     steps:
     - name: Check out the repo
       uses: actions/checkout@v3
@@ -27,5 +27,5 @@ jobs:
         push: true
         platforms: linux/amd64
         context: ./
-        tags: ${{ env.EVOAR_URI }}/admin:latest
+        tags: ${{ env.EVOAR_URI }}/admin_old:latest
   
