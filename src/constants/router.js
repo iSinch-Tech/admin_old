@@ -93,6 +93,8 @@ const router = createBrowserRouter([
 		path: "*",
 		element: <Navigate to="/users" />
 	}
-]);
+], {
+	basename: "/admin_old",
+});
 
 export default router;
