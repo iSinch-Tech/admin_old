@@ -1,6 +1,6 @@
 {
-  "name": "admin",
-  "version": "1.1.1",
+  "name": "admin_old",
+  "version": "1.1.2",
   "private": true,
   "homepage": "/admin_old",
   "dependencies": {
