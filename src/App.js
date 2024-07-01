@@ -17,7 +17,7 @@ const App = () => {
 	}
 	return (
 		<ThemeProvider theme={theme}>
-			<RouterProvider router={router} />
+			<RouterProvider router={router} basepath="admin_old" />
 		</ThemeProvider>
 	);
 }
